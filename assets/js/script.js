@@ -58,7 +58,7 @@ const week = parseInt(7)
 
 //Acá calculamos y pasamos lo valores del día a año y semana
 let año = Math.floor(days / age);
-let semana = Math.floor((days % age) % week);
+let semana = Math.floor((days % age) / week);
 
 //Aquí mostramos en la consola la conversión de días a año y semana
 console.log("EJERCICIO 4")
